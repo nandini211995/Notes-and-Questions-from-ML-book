@@ -1,6 +1,6 @@
-# Notes and Questions from ML book
+# Questions from ML Book : Hands-On Machine Leraning with Scikit-Learn, Keras & Tensorflow 
 
-# **Chapter 1 : The Machine Learning Landscape**
+## **Chapter 1 : The Machine Learning Landscape**
 
 1. What is supervised learning? Name some most important supervised learning algorithms?
 ```diff
@@ -108,7 +108,26 @@
 + If there is no assumption about the data,then there is no reason to prefer one model over any other.
 ```
 
-18. 
+18. What is overfitting and underfitting for the ML model?
+
+```diff
++ If model well trained on traing data but performs worse on testing data then it is called overfitting.
++ If model performs worse on training data itself then this is called underfitting.
+```
+19. What is training set, validation set and testing set?
+
+```diff
++ Training set is used to train the model.
++ Validation set is used to compare models to find out best model.
++ Testing set is used to test the model or to estimate generalization error on new instances.
+```
+
+
+
+## **Chapter 2 : End-to-End Machine Learning Project**
+
+
+
 ```diff
 - text in red
 + text in green
