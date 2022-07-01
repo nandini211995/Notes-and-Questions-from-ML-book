@@ -65,8 +65,50 @@
 + A utility function(fitness function) that measures how good your model is.
 + A cost function that measures how bad it is.
 ```
+12. What are the main challenges of machine learning?
 
+```diff
++ Insufficient Quantity of training data
++ Nonrepresentative Training data
++ Poor-quality data
++ Irrelevant features
++ Overfitting the training data
++ Underfitting the training data
+```
 
+13. What is feature enginnering in ML project?
+
+```diff
++ Coming up with good set of features for the training, feature engineering take place.
++ It involves these steps: Feature Selection, Feature extraction, Creating new features by gathering new data
+```
+
+14. What is regularization?
+
+```diff
++ For reducing the risk of overfitting, regularization is used.
+```
+
+15. What is hyperparameters?
+
+```diff
++ It is a parameter of learning algorithm not of the model; It is not affected by the learning algorithm itself; it must be set prior training
++ and remains constant during training. It is used to control the amount of regularization to apply during learning.
+```
+
+16. What is generalization error?
+
+```diff
++ The error rate on new cases is called generalization error.
+```
+
+17. What is No Free Lunch Theorem?
+
+```diff
++ If there is no assumption about the data,then there is no reason to prefer one model over any other.
+```
+
+18. 
 ```diff
 - text in red
 + text in green
